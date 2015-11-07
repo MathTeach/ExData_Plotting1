@@ -33,7 +33,7 @@ png(filename = "plot1.png")
 ## Create histogram for global active power and change title/x axis label.
 ## Suppress box drawn around plot by setting bty = "n".
 hist(subset_file$global_active_power, col = "red", main = "Global Active Power",
-            xlab = "Global Active Power (kilowatts)", bty = "n")
+            xlab = "Global Active Power (kilowatts)")
 
 ## Close the PNG device.
 dev.off()
